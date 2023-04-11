@@ -4,4 +4,4 @@
 
 ### Movie data
 
-![https://user-images.githubusercontent.com/91030539/231310161-0da1ed7c-a466-4688-b4fd-59c799519b69.png)
+![Movie data bottom sheet](https://user-images.githubusercontent.com/91030539/231310161-0da1ed7c-a466-4688-b4fd-59c799519b69.png)
