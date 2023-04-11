@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:movies_app/widgets/movie_card.dart';
-import 'package:movies_app/widgets/person_card.dart';
+import 'package:movies_app/widgets/widgets.dart';
 
 class TrendingContent extends StatelessWidget {
   final Map<String, List>? data;
   const TrendingContent({super.key, required this.data});
-
+ 
   @override
   Widget build(BuildContext context) {
     var screenSize = MediaQuery.of(context).size;
