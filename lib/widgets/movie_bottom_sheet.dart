@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:movies_app/models/models.dart';
 import 'package:movies_app/providers/app_provider.dart';
-import 'package:movies_app/widgets/movie_rating_indicatior.dart';
+import 'package:movies_app/widgets/widgets.dart';
 import 'package:provider/provider.dart';
 
 class MovieBottomSheet extends StatelessWidget {
@@ -18,6 +17,12 @@ class MovieBottomSheet extends StatelessWidget {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
+          const SizedBox(
+            width: 80,
+            child: Divider(
+              thickness: 2,
+            ),
+          ),
           Text(
             movie.title,
             style: const TextStyle(fontSize: 25),
