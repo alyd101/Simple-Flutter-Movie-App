@@ -7,9 +7,9 @@ class Person {
 
   factory Person.fromJson(Map data) {
     final String name = data["name"];
-    final String picturePath = data["profile_path"];
+    final String? picturePath = data["profile_path"];
     final int id = data["id"];
 
-    return Person(name: name, id: id, picturePath: picturePath);
+    return Person(name: name, id: id, picturePath: picturePath ?? "String value is null");
   }
 }

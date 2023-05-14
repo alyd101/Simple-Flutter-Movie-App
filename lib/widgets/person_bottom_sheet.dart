@@ -43,7 +43,7 @@ class PersonBottomSheet extends StatelessWidget {
                 ),
                 children: [
                   TextSpan(
-                    text: person.knownForDepartment,
+                    text: person.name,
                     style: const TextStyle(
                         fontWeight: FontWeight.normal, color: Colors.black),
                   )
