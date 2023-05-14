@@ -17,7 +17,7 @@ class MovieCard extends StatelessWidget {
       child: InkWell(
         onTap: () {
           showBottomSheet(
-              backgroundColor: Color.fromARGB(255, 242, 242, 242),
+              backgroundColor: const Color.fromARGB(255, 242, 242, 242),
               enableDrag: true,
               constraints: BoxConstraints(
                   maxHeight: screenSize.height * 0.8,
